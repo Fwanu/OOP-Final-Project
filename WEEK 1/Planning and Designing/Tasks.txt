@@ -1,0 +1,34 @@
+
+OOP - Beadle Attendance Recording System
+
+Main features
+
+Recording student and entities attendance
+
+(not automatic, all controlled by the user/beadle)
+
+- can start a stopwatch or timer for meeting total time present calculations
+- can input name to be recorded for attendance
+- can input time entered 
+- can input time exit
+- can see total time in the meeting
+- can see which students or entities are absent or present
+
+Components
+
+- Buttons
+- a text input for customization of inputs such as name, or time entered and exit
+- timer output?
+- custom libraries (undecided)
+
+
+Classes
+  Students
+
+
+Methods
+
+  Record time in 
+  -records time in 
+  Record time out
+  -records time out
