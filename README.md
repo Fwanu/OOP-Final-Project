@@ -16,7 +16,7 @@ Its main objective and purpose is to help Beadles in recording and monitoring at
   - Check masterfile.text for previous recordings. Multiple recordings might make distinction difficult. Delete at your own leisure
 
 ## How to Run:
-  1. Open program
+  1. Open program gui.py
   2. input two dates with the date start being higher than the date end
   3. the two values will generate all values from date start to date end as value to record
   4. press the leftmost buttons to set the names
