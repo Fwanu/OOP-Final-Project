@@ -103,13 +103,20 @@ Total Days Absent:
         
         for z in range(len(classList)):
             
-            print("\nName: ",classList[z].name, file = f)
-            print("Dates Recorded: ", dates_between, file = f)
-            print("Present: ",classList[z]._Dates_Present, file = f)
-            print("Absent: ", classList[z]._Dates_Absent, file = f)
-            print("Total Days Present: ", len(classList[z]._Dates_Present), file = f)
-            print("Total Days Absent:  ", len(dates_between) - len(classList[z]._Dates_Present), end='\n' ,file = f)
-    
+            if ' ' in dates_between:
+                dates_between.remove(' ')
+
+            else:
+
+                print("\nName: ",classList[z].name, file = f)
+                print("Dates Recorded: ", dates_between, file = f)
+                print("Present: ",classList[z]._Dates_Present, file = f)
+                print("Absent: ", classList[z]._Dates_Absent, file = f)
+                print("Total Days Present: ", len(classList[z]._Dates_Present), file = f)
+                print("Total Days Absent:  ", len(dates_between) - len(classList[z]._Dates_Present), end='\n' ,file = f)
+                if len(classList[z]._Dates_Absent) > len(classList[z]._Dates_Present):
+                    print("This student is failing", file= f)
+     
 
         
 
